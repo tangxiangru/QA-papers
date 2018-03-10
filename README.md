@@ -9,7 +9,7 @@ task:reading comprehension ||  data:SQuAD
 
 task:NER、mention detection
 
-[An End-to-End Model for Question Answering over Knowledge Base with] (https://www.aclweb.org/anthology/P/P17/P17-1021.pdf)
+[An End-to-End Model for Question Answering over Knowledge Base with Cross-Attention Combining Global Knowledge](https://www.researchgate.net/publication/318737344_An_End-to-End_Model_for_Question_Answering_over_Knowledge_Base_with_Cross-Attention_Combining_Global_Knowledge)
 
 data:WebQuestions || focus：question representation（问题无论它的候选答案是什么，都会被转换成为一个固定长度的vector）
 
