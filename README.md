@@ -53,10 +53,40 @@ data:document上回答cloze风格 || method:multi-hop架构和一个新的attent
 
 data:kbqa
 
+[Going out on a limb : Joint Extraction of Entity Mentions and Relations without Dependency Trees](https://www.aclweb.org/anthology/P/P17/P17-1085.pdf)
 
 
+[Weakly Supervised Cross-Lingual Named Entity Recognition via Effective Annotation and Representation Projection](https://arxiv.org/abs/1707.02483)
 
+[http://www.pilevar.com/taher/pubs/ACL2017b_Gritta_etal.pdf](http://www.pilevar.com/taher/pubs/ACL2017b_Gritta_etal.pdf)
 
+focus:转喻(metonymic)与NER  || data:SemEval2007的Metonymy Resolution
 
+[Search-based Neural Structured Learning for Sequential Question Answering](https://cs.umd.edu/~miyyer/pubs/2017_acl_dynsp.pdf)
+
+method:dynamic neural semantic parsing,使用弱监督的reward-guided search
+
+[Reading Wikipedia to Answer Open-Domain Questions](https://arxiv.org/abs/1704.00051)
+
+method:bigram hashing进行搜索和使用RNN进行TF-IDF matching ||data:Wikipedia
+
+[Neural Symbolic Machines: Learning Semantic Parsers on Freebase with Weak Supervision](https://arxiv.org/abs/1611.00020)
+
+method:neural programmer(比如说一个端到端的模型来将语言映射到程序)+symbolic computer(比如说一个能够执行程序的Lisp的解释器)+rl
+
+[hierarchical RNN](https://arxiv.org/abs/1704.06194)
+
+method:hierarchical RNN +residual learning || data:single-relation(SimpleQuestions)和multi-relation(WebQSP)
+
+[Joint Extraction of Entities and Relations Based on a Novel Tagging Scheme](https://arxiv.org/abs/1706.05075)
+
+entities和relations的joint extraction--->tagging problem
+
+[Joint Extraction of Relations with Class Ties via Effective Deep Ranking](https://arxiv.org/abs/1612.07602)
+
+一个实体tuple可能有多个关系fact、三个新的ranking loss function
+
+[Leveraging Knowledge Bases in LSTMs for Improving Machine Reading](http://www.aclweb.org/anthology/P/P17/P17-1132.pdf)
+data:ACE2005的entity extraction和event extraction
 
 
